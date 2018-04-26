@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --exit",
+	"cover": "istanbul cover _mocha --exit",
     "lint": "./node_modules/.bin/eslint index.js",
     "now": "NODE_ENV='development' nodemon index.js"
   },

@@ -269,8 +269,3 @@ return new Promise(function(resolve, reject) {
     });
 });
 }
-
-function addTwoNumbers(x, y) {
-  return x + y;
-}
-module.exports = addTwoNumbers;
